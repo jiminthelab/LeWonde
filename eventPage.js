@@ -1,5 +1,3 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-    chrome.tabs.executeScript({
-        file: 'contentscript.js' 
-    });
+  chrome.tabs.executeScript({file: 'contentscript.js' });
 });
